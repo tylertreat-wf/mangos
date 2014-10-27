@@ -27,11 +27,11 @@
 package main
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/pull"
-	"github.com/gdamore/mangos/protocol/push"
-	"github.com/gdamore/mangos/transport/ipc"
-	"github.com/gdamore/mangos/transport/tcp"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/pull"
+	"github.com/tylertreat-wf/mangos/protocol/push"
+	"github.com/tylertreat-wf/mangos/transport/ipc"
+	"github.com/tylertreat-wf/mangos/transport/tcp"
 	"fmt"
 	"os"
 )

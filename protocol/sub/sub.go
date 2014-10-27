@@ -19,7 +19,7 @@
 package sub
 
 import (
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 	"bytes"
 	"sync"
 )

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 )
 
 const defaultSurveyTime = time.Second

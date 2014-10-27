@@ -15,11 +15,11 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/pair"
-	"github.com/gdamore/mangos/protocol/rep"
-	"github.com/gdamore/mangos/protocol/req"
-	"github.com/gdamore/mangos/transport/all"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/pair"
+	"github.com/tylertreat-wf/mangos/protocol/rep"
+	"github.com/tylertreat-wf/mangos/protocol/req"
+	"github.com/tylertreat-wf/mangos/transport/all"
 	"runtime"
 	"strings"
 	"testing"

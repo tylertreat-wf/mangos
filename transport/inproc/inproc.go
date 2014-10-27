@@ -16,7 +16,7 @@
 package inproc
 
 import (
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 	"sync"
 )
 

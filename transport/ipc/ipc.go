@@ -16,7 +16,7 @@
 package ipc
 
 import (
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 	"net"
 )
 

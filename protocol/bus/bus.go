@@ -17,7 +17,7 @@
 package bus
 
 import (
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 	"encoding/binary"
 	"sync"
 )

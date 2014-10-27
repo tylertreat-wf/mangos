@@ -15,9 +15,9 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/pull"
-	"github.com/gdamore/mangos/protocol/push"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/pull"
+	"github.com/tylertreat-wf/mangos/protocol/push"
 	"testing"
 )
 

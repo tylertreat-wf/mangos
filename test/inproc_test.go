@@ -15,8 +15,8 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/transport/inproc"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/transport/inproc"
 	"bytes"
 	"testing"
 	"time"

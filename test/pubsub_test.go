@@ -15,9 +15,9 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/pub"
-	"github.com/gdamore/mangos/protocol/sub"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/pub"
+	"github.com/tylertreat-wf/mangos/protocol/sub"
 	"bytes"
 	"testing"
 )

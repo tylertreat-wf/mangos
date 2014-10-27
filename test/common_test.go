@@ -16,9 +16,9 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/transport/all"
-	"github.com/gdamore/mangos/transport/tlstcp"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/transport/all"
+	"github.com/tylertreat-wf/mangos/transport/tlstcp"
 	"bytes"
 	"encoding/binary"
 	"fmt"

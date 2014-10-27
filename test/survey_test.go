@@ -15,9 +15,9 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/respondent"
-	"github.com/gdamore/mangos/protocol/surveyor"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/respondent"
+	"github.com/tylertreat-wf/mangos/protocol/surveyor"
 	"encoding/binary"
 	"testing"
 	"time"

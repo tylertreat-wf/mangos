@@ -17,7 +17,7 @@
 package push
 
 import (
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 )
 
 type push struct {

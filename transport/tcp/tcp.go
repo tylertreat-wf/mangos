@@ -18,7 +18,7 @@ package tcp
 import (
 	"net"
 
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 )
 
 type tcpDialer struct {

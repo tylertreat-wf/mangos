@@ -19,7 +19,7 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 )
 
 type tlsDialer struct {

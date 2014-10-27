@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/gdamore/mangos"
+	"github.com/tylertreat-wf/mangos"
 )
 
 type resp struct {

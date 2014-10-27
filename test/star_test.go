@@ -15,9 +15,9 @@
 package test
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/star"
-	"github.com/gdamore/mangos/transport/tcp"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/star"
+	"github.com/tylertreat-wf/mangos/transport/tcp"
 	"math/rand"
 	"testing"
 	"time"

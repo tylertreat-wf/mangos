@@ -29,11 +29,11 @@
 package main
 
 import (
-	"github.com/gdamore/mangos"
-	"github.com/gdamore/mangos/protocol/respondent"
-	"github.com/gdamore/mangos/protocol/surveyor"
-	"github.com/gdamore/mangos/transport/ipc"
-	"github.com/gdamore/mangos/transport/tcp"
+	"github.com/tylertreat-wf/mangos"
+	"github.com/tylertreat-wf/mangos/protocol/respondent"
+	"github.com/tylertreat-wf/mangos/protocol/surveyor"
+	"github.com/tylertreat-wf/mangos/transport/ipc"
+	"github.com/tylertreat-wf/mangos/transport/tcp"
 	"fmt"
 	"os"
 	"time"
