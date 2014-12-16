@@ -102,5 +102,6 @@ func (p *pipe) RecvMsg() *Message {
 		p.Close()
 		return nil
 	}
+	msg.Remote = p.pipe.RemoteAddr()
 	return msg
 }

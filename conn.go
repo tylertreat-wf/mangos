@@ -121,6 +121,16 @@ func (p *conn) IsOpen() bool {
 	return p.open
 }
 
+// LocalAddr returns the local network address.
+func (p *conn) LocalAddr() net.Addr {
+	return p.c.LocalAddr()
+}
+
+// RemoteAddr returns the remote network address.
+func (p *conn) RemoteAddr() net.Addr {
+	return p.c.RemoteAddr()
+}
+
 // NewConnPipe allocates a new Pipe using the supplied net.Conn, and
 // initializes it.  It performs the handshake required at the SP layer,
 // only returning the Pipe once the SP layer negotiation is complete.
@@ -214,6 +224,16 @@ func (p *connipc) Recv() (*Message, error) {
 		return nil, err
 	}
 	return msg, nil
+}
+
+// LocalAddr returns the local network address.
+func (p *connipc) LocalAddr() net.Addr {
+	return p.c.LocalAddr()
+}
+
+// RemoteAddr returns the remote network address.
+func (p *connipc) RemoteAddr() net.Addr {
+	return p.c.RemoteAddr()
 }
 
 // connHeader is exchanged during the initial handshake.

@@ -14,6 +14,8 @@
 
 package mangos
 
+import "net"
+
 // Pipe behaves like a full-duplex message-oriented connection between two
 // peers.  Callers may call operations on a Pipe simultaneously from
 // different goroutines.  (These are different from net.Conn because they
@@ -55,6 +57,12 @@ type Pipe interface {
 
 	// IsOpen returns true if the underlying connection is open.
 	IsOpen() bool
+
+	// LocalAddr returns the local network address.
+	LocalAddr() net.Addr
+
+	// RemoteAddr returns the remote network address.
+	RemoteAddr() net.Addr
 }
 
 // PipeDialer represents the client side of a connection.  Clients initiate
