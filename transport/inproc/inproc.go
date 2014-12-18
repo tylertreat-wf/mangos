@@ -16,8 +16,10 @@
 package inproc
 
 import (
-	"github.com/tylertreat-wf/mangos"
+	"net"
 	"sync"
+
+	"github.com/tylertreat-wf/mangos"
 )
 
 // inproc implements the Pipe interface on top of channels.
@@ -107,6 +109,14 @@ func (p *inproc) IsOpen() bool {
 	default:
 		return true
 	}
+}
+
+func (p *inproc) LocalAddr() net.Addr {
+	return nil
+}
+
+func (p *inproc) RemoteAddr() net.Addr {
+	return nil
 }
 
 type inprocRendezvous struct {

@@ -15,6 +15,7 @@
 package mangos
 
 import (
+	"net"
 	"sync/atomic"
 )
 
@@ -26,6 +27,7 @@ import (
 type Message struct {
 	Header []byte
 	Body   []byte
+	Remote net.Addr
 	bbuf   []byte
 	hbuf   []byte
 	bsize  int
