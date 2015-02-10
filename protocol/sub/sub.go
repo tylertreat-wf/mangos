@@ -19,9 +19,10 @@
 package sub
 
 import (
-	"github.com/tylertreat-wf/mangos"
 	"bytes"
 	"sync"
+
+	"github.com/tylertreat-wf/mangos"
 )
 
 type sub struct {
